@@ -16,4 +16,8 @@ bundle init
 # Add dependencies
 bundle add sinatra
 bundle add puma
+...
+
+# To start a multi-threaded Rainbows server
+rainbows -c rainbows.conf
 ```
